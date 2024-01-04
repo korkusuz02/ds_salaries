@@ -1,0 +1,38 @@
+dev:
+  env_identifier: "dev"
+  env_explanation: "DEVELOPMENT"
+  db_prefix: "ds_salaries_dev"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-ds_salaries-dev"
+  elastic_index: "ds_salaries_dev"
+  kafka_topic: "ds_salaries_dev"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+qa:
+  env_identifier: "qa"
+  env_explanation: "QA"
+  db_prefix: "ds_salaries_qa"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-ds_salaries-qa"
+  elastic_index: "ds_salaries_qa"
+  kafka_topic: "ds_salaries_qa"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+prod:
+  env_identifier: "prod"
+  env_explanation: "PRODUCTION"
+  db_prefix: "ds_salaries_prod"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-ds_salaries-prod"
+  elastic_index: "ds_salaries_prod"
+  kafka_topic: "ds_salaries_prod"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
